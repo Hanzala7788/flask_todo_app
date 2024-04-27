@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f0f0f0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Todo List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+	font-size: 1rem;
+}
+
+li {
+    background-color: #2b2b2b;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	width: 300px;
+}
+
+li a {
+    color: #4caf50;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: rgba(76, 175, 80, 0.2);
+}
+
+.mark {
+    font-size: 16px;
+    color: #999;
+}
+
+li .remove-link {
+    color: #ff4d4d; /* Red color for the remove link */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+li .remove-link:hover {
+    background-color: rgba(255, 77, 77, 0.2); /* Light red background on hover */
+}
